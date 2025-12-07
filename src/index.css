@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: theme('fontFamily.sans');
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at top, #1a93ff22 0, transparent 60%),
+    radial-gradient(circle at bottom, #4dabff11 0, transparent 55%);
+}
+
+
