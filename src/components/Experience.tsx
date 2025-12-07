@@ -10,32 +10,59 @@ interface ExperienceItem {
   bullets: string[];
 }
 
-// NOTE: Replace these placeholders with the exact roles from your LinkedIn profile.
 const experience: ExperienceItem[] = [
   {
-    role: 'Software Engineer',
-    company: 'Your Current / Most Recent Company',
-    location: 'City, Country',
-    period: '2023 – Present',
+    role: 'Electrical Engineer – Building Services',
+    company: 'Buro Happold GmbH',
+    location: 'Berlin, Germany',
+    period: '10/2022 – Present',
     summary:
-      'Working across the stack to deliver user‑facing features, improve reliability, and collaborate with product and design.',
+      'Design and coordination of electrical building systems with a focus on safety, efficiency, and constructability, while advancing digital tools and workflows.',
     bullets: [
-      'Build and maintain modern React + TypeScript UIs with reusable, well‑tested components.',
-      'Design and integrate backend APIs, focusing on performance and clear contracts.',
-      'Improve developer experience through better tooling, documentation, and automation.'
+      'Design and coordinate power distribution, lighting, ICT/ELV and related systems, including calculations, sizing, and cross‑disciplinary coordination.',
+      'Prepare technical documentation, schematics, and Revit models that support safe, efficient construction and operation.',
+      'Develop small tools, scripts, and Revit extensions (C# and pyRevit) to make recurring design steps clearer, faster, or more reliable.',
+      'Contribute to the European Computational Development Group on standardized calculation tools, digitalization of standards, and maintaining a shared knowledge base.'
     ]
   },
   {
-    role: 'Previous Engineering / Technical Role',
-    company: 'Previous Company',
-    location: 'City, Country',
-    period: '2020 – 2023',
+    role: 'Electrical Engineer',
+    company: 'VPA Ingenieurgesellschaft mbH',
+    location: 'Berlin, Germany',
+    period: '10/2018 – 09/2022',
     summary:
-      'Contributed to a variety of engineering projects, working closely with cross‑functional teams.',
+      'Planning and design of electrical building systems with emphasis on safety, reliability, and efficient use of resources.',
     bullets: [
-      'Owned features end‑to‑end from technical design through implementation and rollout.',
-      'Collaborated with stakeholders to refine requirements into concrete technical work.',
-      'Helped maintain and refactor legacy areas of the codebase to be more reliable and testable.'
+      'Designed and planned electrical building systems with a focus on safe and reliable operation.',
+      'Automated repetitive manual tasks to improve productivity and reduce the likelihood of errors.',
+      'Streamlined planning workflows by introducing practical software tools and automation methods.',
+      'Ensured efficient use of resources through well‑coordinated electrical system planning.'
+    ]
+  },
+  {
+    role: 'Research Associate – Medical Image Processing',
+    company: 'Charité – Universitätsmedizin Berlin',
+    location: 'Berlin, Germany',
+    period: '10/2019 – 10/2020',
+    summary:
+      'Worked on a deep learning project for evaluating image quality in medical radiology, particularly digital mammography.',
+    bullets: [
+      'Developed and tested neural network models for assessing medical image quality.',
+      'Prepared training datasets and designed evaluation methods together with clinicians and imaging specialists.',
+      'Collaborated with Charité Berlin and the US FDA to translate medical requirements into practical computational approaches.'
+    ]
+  },
+  {
+    role: 'Working Student – Medical Image Processing',
+    company: 'Charité – Universitätsmedizin Berlin',
+    location: 'Berlin, Germany',
+    period: '02/2018 – 06/2019',
+    summary:
+      'Supported research on medical image processing tools and automated analysis workflows.',
+    bullets: [
+      'Developed software tools for medical image processing, mainly using Python.',
+      'Assisted researchers with imaging experiments, data preparation, and evaluation.',
+      'Built prototypes for automated image analysis workflows and improved existing pipelines.'
     ]
   }
 ];
@@ -71,10 +98,6 @@ const Experience: React.FC = () => {
           </article>
         ))}
       </div>
-      <p className="mt-4 text-[11px] text-slate-500">
-        Want this to be perfectly accurate? Update the roles above to match your LinkedIn titles,
-        companies, and dates.
-      </p>
     </Section>
   );
 };

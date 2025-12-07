@@ -3,20 +3,46 @@ import Section from './Section';
 
 const groups: { title: string; items: string[] }[] = [
   {
-    title: 'Languages & Core',
-    items: ['TypeScript', 'JavaScript (ESNext)', 'HTML & CSS', 'SQL']
+    title: 'Building Services & Electrical',
+    items: [
+      'Electrical building services',
+      'Power distribution & lighting',
+      'Lightning protection / earthing',
+      'ICT / ELV systems',
+      'Revit MEP'
+    ]
   },
   {
-    title: 'Frontend',
-    items: ['React', 'React Hooks', 'Vite', 'Tailwind CSS']
+    title: 'Software & Automation',
+    items: [
+      'Python',
+      'Flutter',
+      'C#',
+      'pyRevit & Revit extensions',
+      'Automation of design workflows',
+      'Digital tools for engineering',
+      'Mobile app development'
+    ]
   },
   {
-    title: 'Backend & Cloud',
-    items: ['Node.js', 'REST APIs', 'Firebase', 'Authentication & AuthZ basics']
+    title: 'Analysis & Computation',
+    items: [
+      'Deep learning',
+      'Computer vision',
+      'Medical image processing',
+      'Simaris, Relux, DIALux',
+      'Data preparation & evaluation'
+    ]
   },
   {
-    title: 'Practices',
-    items: ['Code review', 'Testing mindset', 'Clean architecture', 'Agile collaboration']
+    title: 'General Skills & Tools',
+    items: [
+      'Project coordination',
+      'Documentation & schematics',
+      'Microsoft Excel',
+      'Process improvement',
+      'Knowledge base & standards'
+    ]
   }
 ];
 

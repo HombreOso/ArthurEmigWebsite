@@ -9,15 +9,16 @@ const Hero: React.FC = () => {
       <div className="mx-auto flex max-w-5xl flex-col gap-8 md:flex-row md:items-center">
         <div className="flex-1 space-y-5">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand-300/90">
-            Software Engineer
+            Electrical Engineer
           </p>
           <h1 className="text-balance text-4xl font-semibold tracking-tight text-slate-50 sm:text-5xl">
             Hi, I&apos;m Arthur.
           </h1>
           <p className="max-w-xl text-sm leading-relaxed text-slate-300">
-            I&apos;m a software engineer with a focus on building reliable, user‑centric web
-            experiences. I enjoy working across the stack, turning ideas into well‑crafted products
-            with clean code, thoughtful architecture, and strong attention to detail.
+            I&apos;m an electrical engineer in building services, focusing on power, lighting,
+            lightning protection/earthing, and ICT/ELV systems for buildings. I combine practical
+            engineering work with computational tools to help teams design more accurately and
+            efficiently.
           </p>
 
           <div className="flex flex-wrap gap-3 text-xs">
@@ -37,13 +38,13 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-wrap gap-3 text-[11px] text-slate-400">
             <span className="rounded-full border border-slate-800 px-3 py-1">
-              TypeScript & React
+              Building services engineering
             </span>
             <span className="rounded-full border border-slate-800 px-3 py-1">
-              Node.js & APIs
+              Computational tools (Flutter, Python & C#)
             </span>
             <span className="rounded-full border border-slate-800 px-3 py-1">
-              Cloud & DevOps
+              Revit & automation
             </span>
           </div>
         </div>
@@ -55,9 +56,13 @@ const Hero: React.FC = () => {
               <span className="text-xs font-medium uppercase tracking-[0.18em] text-slate-300">
                 Arthur Emig
               </span>
-              <span className="text-[11px] text-slate-400">Full‑stack minded engineer</span>
+              <span className="text-[11px] text-slate-400">
+                Electrical Engineer &amp;
+                <br />
+                Computational Developer
+              </span>
               <span className="mt-3 rounded-full border border-slate-700/70 bg-slate-900/60 px-3 py-1 text-[10px] text-slate-300">
-                Open to impactful engineering roles
+                Strengthening engineering processes &amp; workflows
               </span>
             </div>
           </div>

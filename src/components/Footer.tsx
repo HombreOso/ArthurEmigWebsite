@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             LinkedIn
           </a>
           <a
-            href="https://github.com/your-github-handle"
+            href="https://github.com/HombreOso"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-brand-300"

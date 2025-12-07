@@ -9,29 +9,31 @@ interface Project {
   highlight?: string;
 }
 
-// NOTE: Replace these projects with real ones from your GitHub / LinkedIn.
 const projects: Project[] = [
   {
-    name: 'Project One',
+    name: 'Time Assistant – Productivity App',
     description:
-      'A modern web application demonstrating end‑to‑end ownership: frontend, backend, and deployment.',
-    tech: ['TypeScript', 'React', 'Node.js', 'REST APIs'],
-    highlight: 'Great example to talk through your architecture and tradeoffs in an interview.'
-  },
-  {
-    name: 'Project Two',
-    description:
-      'An internal tool that automated a manual workflow and saved hours of repetitive work per week.',
-    tech: ['React', 'Tailwind CSS', 'Firebase / Supabase'],
+      'A mobile app that helps users track and structure their time more deliberately, built to explore mobile development and practical UX around daily planning.',
+    tech: ['Dart', 'Flutter', 'Google Play'],
+    link: 'https://play.google.com/store/apps/details?id=com.hombreoso.time_assistant',
     highlight:
-      'Focus on the real impact: time saved, errors reduced, or new capabilities unlocked for users.'
+      'Demonstrates the ability to design, build, and ship a complete product to production app stores.'
   },
   {
-    name: 'Project Three',
+    name: 'Revit & pyRevit Tools for Building Services',
     description:
-      'A personal project exploring a new technology or framework, built to learn by doing.',
-    tech: ['Experiment tech', 'Testing', 'CI/CD'],
-    highlight: 'Shows curiosity, ability to self‑direct, and willingness to learn new stacks.'
+      'A collection of small tools, scripts, and Revit extensions that automate recurring tasks in electrical building design, making workflows clearer, faster, and less error‑prone.',
+    tech: ['C#', 'pyRevit', 'Revit', 'Automation'],
+    highlight:
+      'Improves internal workflows by reducing manual steps, standardizing calculations, and supporting consistent documentation.'
+  },
+  {
+    name: 'Medical Image Quality Assessment (Deep Learning)',
+    description:
+      'Research work on evaluating medical image quality in digital mammography using deep learning models, from dataset preparation to model evaluation together with clinicians.',
+    tech: ['Python', 'Deep Learning', 'Computer Vision'],
+    highlight:
+      'Experience at the intersection of medicine, image processing, and applied machine learning, contributing to a publication in the Journal of Medical Imaging.'
   }
 ];
 
